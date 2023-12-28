@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 12.15
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/Users/fredericstrand/Desktop/bitPredict/env/include
+Libs: -L/Users/fredericstrand/Desktop/bitPredict/env/lib -lecpg_compat
+Libs.private: -L/Users/fredericstrand/Desktop/bitPredict/env/lib -lpgcommon -lpgport -lpq -lm
